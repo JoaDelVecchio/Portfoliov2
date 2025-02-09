@@ -3,4 +3,5 @@ export interface IProject {
   title: string;
   video: string;
   year: number;
+  link: string;
 }

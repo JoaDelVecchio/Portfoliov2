@@ -3,11 +3,11 @@ import Home from "./components/Home";
 
 const App = () => {
   return (
-    <div className="flex min-h-screen w-full bg-gradient-to-r from-[#f8f9fb] to-[#eaf2f8]">
-      <header className="min-h-screen w-2/5">
+    <div className="flex min-h-screen w-full flex-col-reverse bg-gradient-to-r from-[#f8f9fb] to-[#eaf2f8] md:flex-row">
+      <header className="min-h-screen w-full md:w-1/4">
         <NavBar />
       </header>
-      <main className="min-h-screen w-3/5">
+      <main className="md:block md:min-h-screen lg:w-3/4">
         <Home />
       </main>
     </div>

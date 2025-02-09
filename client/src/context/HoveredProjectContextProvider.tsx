@@ -1,5 +1,6 @@
 import { createContext, useContext, useState } from "react";
 import { IProject } from "../types/types";
+import { projects } from "../data/projects";
 
 interface HoveredContextType {
   hoveredProject: IProject | undefined;
@@ -21,11 +22,11 @@ const HoveredProjectContextProvider = ({
   children: React.ReactNode;
 }) => {
   const [hoveredProject, setHoveredProject] = useState<IProject | undefined>(
-    undefined,
+    projects[0],
   );
   const updateHoveredProject = (project: IProject | undefined) => {
     console.log("Hovered Project updated succesfully", project);
-    setHoveredProject(project);
+    setHoveredProject(project ? project : undefined);
   };
 
   return (
