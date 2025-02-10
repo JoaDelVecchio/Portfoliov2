@@ -8,7 +8,7 @@ export const projects: IProject[] = [
     title: "Top3",
     video: isLocal
       ? "/videos/Top3.mp4" // Local fallback
-      : "https://kkdaquubuhuwwawu.public.blob.vercel-storage.com/Top3-4ZxlvAtGETsOxE7pfL3i8Njgwdw0nu.mp4",
+      : "https://kkdaquubuhuwwawu.public.blob.vercel-storage.com/Screen%20Recording%202025-02-10%20at%2012.42.33-KA6UOr0UHPkLC6TWpryw4bQjajntY8.mov",
     year: 2025,
     link: "https://top3-gamma.vercel.app/",
   },
