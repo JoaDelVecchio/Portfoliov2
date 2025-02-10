@@ -6,7 +6,7 @@ const HoveredProject = ({ project }: { project: IProject }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <div className="relative">
+    <div className="relative w-full">
       {/* Loading Indicator */}
       {isLoading && (
         <div className="absolute inset-0 flex items-center justify-center rounded-xl bg-gray-900 bg-opacity-50">

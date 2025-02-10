@@ -2,7 +2,7 @@ const PersonalInfo = () => {
   return (
     <div className="flex h-full w-full flex-col items-center justify-center">
       <div className="flex flex-col gap-2 text-center text-sm font-semibold tracking-tight text-gray-900 md:text-2xl">
-        <div className="flex flex-col items-center md:items-start">
+        <div className="flex flex-col items-center duration-300 hover:scale-105 md:items-start">
           <p>Joaquin Del Vecchio,</p>
           <p>
             Full Stack Developer |
