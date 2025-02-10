@@ -1,6 +1,5 @@
 import { createContext, useContext, useState } from "react";
 import { IProject } from "../types/types";
-import { projects } from "../data/projects";
 
 interface HoveredContextType {
   hoveredProject: IProject | undefined;
