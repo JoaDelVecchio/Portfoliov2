@@ -4,6 +4,15 @@ const isLocal = import.meta.env.NODE_ENV === "development";
 
 export const projects: IProject[] = [
   {
+    id: "247Pilars",
+    title: "247Pilars",
+    video: isLocal
+      ? "/videos/247Pilars.mp4"
+      : "https://kkdaquubuhuwwawu.public.blob.vercel-storage.com/247Pilars-bVqutjfjwBvMHCicOXWKQa5teBNtyH.mp4",
+    year: 2025,
+    link: "https://247-pilars.vercel.app/profile/login",
+  },
+  {
     id: "Top3",
     title: "Top3",
     video: isLocal
@@ -11,15 +20,6 @@ export const projects: IProject[] = [
       : "https://kkdaquubuhuwwawu.public.blob.vercel-storage.com/Screen%20Recording%202025-02-10%20at%2012.42.33-KA6UOr0UHPkLC6TWpryw4bQjajntY8.mov",
     year: 2025,
     link: "https://top3-gamma.vercel.app/",
-  },
-  {
-    id: "247Pilars",
-    title: "247Pilars",
-    video: isLocal
-      ? "/videos/247Pilars.mp4"
-      : "https://kkdaquubuhuwwawu.public.blob.vercel-storage.com/247Pilars-c8MQzHqtrCelOH4nFQWzsVeKjcHajw.mp4",
-    year: 2025,
-    link: "https://247-pilars.vercel.app/",
   },
   {
     id: "KeyPlace",
