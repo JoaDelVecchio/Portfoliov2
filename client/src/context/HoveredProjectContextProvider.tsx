@@ -22,7 +22,7 @@ const HoveredProjectContextProvider = ({
   children: React.ReactNode;
 }) => {
   const [hoveredProject, setHoveredProject] = useState<IProject | undefined>(
-    projects[0],
+    undefined,
   );
   const updateHoveredProject = (project: IProject | undefined) => {
     console.log("Hovered Project updated succesfully", project);
