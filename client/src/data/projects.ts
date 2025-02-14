@@ -13,6 +13,15 @@ export const projects: IProject[] = [
     link: "https://247-pilars.vercel.app/profile/login",
   },
   {
+    id: "WAGMI",
+    title: "WAGMI",
+    video: isLocal
+      ? "/videos/WAGMI.mp4"
+      : "https://kkdaquubuhuwwawu.public.blob.vercel-storage.com/WAGMI-tRJiUXHKJwt54mCkOaTr0aIDJOAiwz",
+    year: 2025,
+    link: "https://wagmi-steel.vercel.app/",
+  },
+  {
     id: "Top3",
     title: "Top3",
     video: isLocal
