@@ -14,7 +14,7 @@ export const projects: IProject[] = [
   },
   {
     id: "WAGMI Crypto",
-    title: "WAGMI",
+    title: "WAGMI Crypto",
     video: isLocal
       ? "/videos/WAGMI.mp4"
       : "https://kkdaquubuhuwwawu.public.blob.vercel-storage.com/WAGMI-tRJiUXHKJwt54mCkOaTr0aIDJOAiwz",
