@@ -13,7 +13,7 @@ export const projects: IProject[] = [
     link: "https://247-pilars.vercel.app/profile/login",
   },
   {
-    id: "WAGMI",
+    id: "WAGMI Crypto",
     title: "WAGMI",
     video: isLocal
       ? "/videos/WAGMI.mp4"
